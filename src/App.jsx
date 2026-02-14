@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 import confetti from 'canvas-confetti';
+import { Analytics } from '@vercel/analytics/react';
 import Bee1 from './assets/Bee1.jpg';
 import Bee2 from './assets/Bee2.jpg';
 import IMG_0337 from './assets/IMG_0337.jpg';
@@ -548,6 +549,7 @@ const handleFinalClick = () => {
 
       {/* Audio Element */}
       <audio ref={audioRef} src="/beeaudio.mp3" preload="none" onEnded={() => setIsPlaying(false)} />
+      <Analytics />
     </div>
   );
 };
