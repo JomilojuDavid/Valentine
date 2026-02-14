@@ -210,7 +210,6 @@ const handleFinalClick = () => {
         <p>the strength, the flaws, the fears, the dreams —</p>
         <p>and still chooses to stay.</p>
         <p>But here we are.</p>
-        <p>One year later.</p>
         <p>And I am still choosing you.</p>
       </motion.section>
 
